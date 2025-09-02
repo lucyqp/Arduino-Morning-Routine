@@ -1,6 +1,11 @@
 # Arduino-Morning-Routine
 Arduino-Morning-Routine This repository is for a morning automation system that performs personalised tasks for the user, like playing recommended music and displaying tasks for the day.
 
+# How It's Made:
+The Arduino main.ino program waits for a serial message from the python host program main.py, which sends commands. 
+It uses the OpenWeatherAPI to automatically turn the LED on if the sun has not risen in the user's location yet as well as Spotify API to open a random song from a specified playlist in the browser. Google Tasks API is used to circulate through the first 5 tasks of the day on the LCD.
+
+
 # Hardware:
 - Arduino Uno
 - 2x 220Ω resistor (for LCD and LED)
