@@ -9,4 +9,5 @@ Arduino-Morning-Routine This repository is for a morning automation system that 
 - Buzzer
 
 # Schematic Diagram
-<img width="1254" height="749" alt="image" src="https://github.com/user-attachments/assets/b4734f10-1783-490b-84dc-0802f621d4b9" />
+<img width="1254" height="749" alt="Screenshot 2025-09-02 012141" src="https://github.com/user-attachments/assets/8d47c98f-e25e-4e42-852b-8ae501b63c36" />
+
