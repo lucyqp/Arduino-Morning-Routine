@@ -15,10 +15,10 @@ def play_music():
 
     #authenticate spotify account
     sp = spotipy.Spotify(auth_manager=SpotifyOAuth(
-        client_id=client_id,
-        client_secret=client_secret,
-        redirect_uri="http://127.0.0.1:5000/redirect",
-        scope="playlist-read-private")
+        client_id = client_id,
+        client_secret = client_secret,
+        redirect_uri = "http://127.0.0.1:5000/redirect",
+        scope = "playlist-read-private")
     )
 
     #get list of tracks from linked playlist
@@ -30,3 +30,4 @@ def play_music():
     track = random.choice(tracks)["track"]
     url = track["external_urls"]["spotify"]
     webbrowser.open(url)
+    
