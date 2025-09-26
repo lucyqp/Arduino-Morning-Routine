@@ -17,8 +17,9 @@ It uses the OpenWeatherAPI to automatically turn the LED on if the sun has not r
 1. Wire circuit with schematic
 2. Clone this repository
 3. Install dependencies ("pip install -r requirements.txt")
-4. Copy .env.example to .env and fill in your own API credentials (Google Tasks API, Spotify API, OpenWeather API used)
-5. Run with: "python src/main.py"
+4. Copy .env.example to .env and fill in your own API credentials (Spotify API, OpenWeather API used)
+5. From the Google Cloud console, download copy of client ID file and save to working directory as "credentials.json"
+6. Run with: "python src/main.py"
 
 
 # Schematic Diagram
